@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.2"
+  },
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "Js_tads/**/*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  }
+}
