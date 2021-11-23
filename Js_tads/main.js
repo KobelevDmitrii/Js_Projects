@@ -11,7 +11,7 @@ el.classList.add('active');
 }
 
 const changeClassContent = el => {
-    for (let i = 0; i < tabsContent.children.length; i++) {
+for (let i = 0; i < tabsContent.children.length; i++) {
         tabsContent.children[i].classList.remove('active');
     }
     el.classList.add('active');
